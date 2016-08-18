@@ -243,6 +243,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
-/SampleApply/SampleApply/bower_components
 /WebResources/Core/Framework/vendorstyles/bower
 /WebResources/Core/Framework/scripts/bower
