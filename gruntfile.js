@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             // Copying the Js scripts
             scripts: {
                 options: {
-                    destPrefix: 'Core/Framework/scripts/bower'
+                    destPrefix: 'Framework/scripts/bower'
                 },
                 files: {
                     // Keys are destinations (prefixed with `options.destPrefix`)
