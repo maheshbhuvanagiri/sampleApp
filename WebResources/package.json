@@ -1,0 +1,9 @@
+{
+  "name": "nodemodule-packages",
+  "version": "0.0.1",
+  "description": "Grunt packages.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bowercopy": "1.2.4"
+  }
+}
