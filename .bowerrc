@@ -2,5 +2,6 @@
   "registry": "http://bower.herokuapp.com",
   "proxy": "http://mbhuvanagiri:epam123$@172.16.100.111:8080/",
   "https-proxy": "http://mbhuvanagiri:epam123$@172.16.100.111:8080/",
-  "strict-ssl": false
+  "strict-ssl": false,
+  "directory": "node_packages"
 }
