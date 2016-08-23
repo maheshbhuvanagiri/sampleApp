@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Verisk NextGen</title>
+
+   
+ 
+    <link href="../css/all-scss.css" rel="stylesheet" />
+    <link href="../../vendorstyles/bower/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../vendorstyles/css/sticky-footer-navbar.css" rel="stylesheet" /> 
+    <link href="../../vendorstyles/kendocss/kendo.common-material.min.css" rel="stylesheet" />
+    <link href="../../vendorstyles/kendocss/kendo.default.min.css" rel="stylesheet" />
+    <link href="../../vendorstyles/kendocss/kendo.material.min.css" rel="stylesheet" />
+    <script src="../../scripts/bower/jquery.min.js"></script>
+    <script src="../../scripts/bower/bootstrap.min.js"></script>
+    <script src="../../scripts/bower/angular/angular.min.js"></script>
+    <script src="../../scripts/bower/angular/angular-ui-router.js"></script>
+    <script src="../../scripts/libs/kendojs/kendo.all.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/banner.js"></script>
+
+</head>
+<body ng-app="nextGenApp">
+    <div ng-include="'header.html'"></div>    
+        <div ng-include="'banner.html'"></div>    
+ 
+        <div class="container">
+            <div ng-include="'productPanels.html'"></div>
+
+        </div>
+       
+    
+    <div ng-include="'footer.html'"></div>
+
+</body>
+</html>

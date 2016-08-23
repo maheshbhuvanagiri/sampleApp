@@ -1,0 +1,22 @@
+﻿.footer {
+    background-color: $brand-primary;
+    border-top: #0076a9 solid 15px;
+    margin: 0 auto;
+    width: 100%;
+
+    .container {
+        text-align: center;
+        padding: 15px;
+        line-height: 24px;
+        color: $white-color;     
+
+        a {
+            color: $blue-lighter-color;
+        }
+
+        a:hover {
+            color: $white-color;
+        }
+    }
+    
+}
